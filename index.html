@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- -------------favicon-------------->
+    <link rel="icon" href="favicon.ico">
+
+    <title>Mohd Faiyaz developer</title>
+
+    <!-- -------------font-awesome-------------->
+    <script src="https://kit.fontawesome.com/8219f0bc91.js" crossorigin="anonymous"></script>
+
+    <!-- -------------css-sheet-------------->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- -------------whatsapp web-------------->
+    <a href="https://wa.me/919521383047"><img src="images/WhatsApp.svg.webp" class="whatsapp" alt="chat"></i></a>
+</head>
+
+<body>
+
+    <!-- -------------home-section-------------->
+    <div id="home">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidebar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">I can</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <img src="images/my-photo.png" class="photo">
+            <div class="header-text">
+                <p>Web Developement, UI/UX Design</p>
+                <h1>Hi, I'm <span>Mohd Faiyaz Ansari</span></h1>
+                <div class="home-link">
+                    <button class="cv"><a href="images/Resume.pdf" download="CV">
+                            <i class="fa-solid fa-download"></i>Download CV</a></button>
+                    <div class="social-link">
+                        <a href="https://www.linkedin.com/in/md-faiyaz-ansari1/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        <a href="https://github.com/coderfaiyaz" target="_blank">
+                            <i class="fa-brands fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!--<button>
+                    <a href="https://www.linkedin.com/in/md-faiyaz-ansari1/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-lg"></i>LinkedIn</a>
+                </button>
+                <button>
+                    <a href="https://github.com/coderfaiyaz" target="_blank">
+                        <i class="fa-brands fa-github fa-lg"></i>Github</a>
+                </button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------about-section-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-heading">About Me</h1>
+                    <p class="paras">Highly motivated and skilled web developer seeking a challenging position in web
+                        development.
+                        As a creative problem solver with a strong foundation in HTML, CSS, JavaScript, jQuery,
+                        Bootstrap,
+                        Node.js and responsive design,
+                        my objective is to leverage my technical expertise and passion for building user-friendly and
+                        visually appealing websites to contribute effectively to a dynamic development team. <br><br>
+                        Eager to contribute to a dynamic team as a Web Developer,
+                        leveraging creative problem-solving skills and a drive for delivering high-quality user
+                        experiences.
+                        Committed to continuous learning and staying updated with the latest industry trends and
+                        technologies. <br><br>
+                        I aim to continuously grow and stay up-to-date with the latest technologies to deliver
+                        innovative and high-quality web solutions that meet and exceed client expectations.
+                    </p>
+                    <div class="tag-heading">
+                        <p class="tag-subHeading active-subHeading" onclick="opentag('skills')">Skills</p>
+                        <p class="tag-subHeading" onclick="opentag('education')">Education</p>
+                        <p class="tag-subHeading" onclick="opentag('internship')">Internship</p>
+                    </div>
+                    <div class="tag-content active-content" id="skills">
+                        <ul>
+                            <li><span class="tag">Fronend</span><br>HTML5, CSS3, JavaScript</li>
+                            <li><span class="tag">Framework</span><br>Bootstrap, jQuery, Express.js</li>
+                            <li><span class="tag">Backend</span><br>C/C++, Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="tag-content" id="education">
+                        <ul>
+                            <li><span class="tag">Bachelor of Technology</span><br>
+                                Maharshi Dayanand University
+                                <span><i class="fa-solid fa-location-dot" style="color: #e6e9ef;"></i></span>
+                                <span>Rohtak</span>
+                                <span class="YOP"><i class="fa-regular fa-calendar"></i></span>
+                                <span>2017 - 2021</span>
+                            </li>
+                            <li><span class="tag">Intermediate</span><br>State Board of
+                                <span><i class="fa-solid fa-location-dot" style="color: #e6e9ef;"></i></span>
+                                <span>Uttar Pardesh</span>
+                                <span class="YOP"><i class="fa-regular fa-calendar"></i></span>
+                                <span>2017</span></li>
+                            <li><span class="tag">High School</span><br>CBSE
+                                <span class="YOP"><i class="fa-regular fa-calendar"></i></span>
+                                <span>2015</span></li>
+                        </ul>
+                    </div>
+                    <div class="tag-content" id="internship">
+                        <ul>
+                            <li><span class="tag">IoT Development Intern</span><br>
+                                Bolt IoT<span class="YOP"><i class="fa-regular fa-calendar"></i></span>
+                                <span>15/01/20 – 14/02/20</span></li>
+                            <li><span class="tag">Web Development and Designing</span><br>
+                                Oasis Infobyte<span class="YOP"><i class="fa-regular fa-calendar"></i></span>
+                                <span>16/08/2023 – present</span></li>
+                            <li><span class="tag">Web Development Intern</span><br>
+                                CODECLAUSE PVT LTD<span class="YOP"><i class="fa-regular fa-calendar"></i></span>
+                                <span>Onboarding</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------services-section-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-heading">What I can do</h1>
+            <div class="services-list">
+                <div>
+                    <!--<i class="fa-regular fa-code fa-2xl"></i>-->
+                    <img src="images/web.gif" class="web">
+                    <h2>Web Developement</h2>
+                    <p>Developed using HTML, CSS, and JavaScript to create many App
+                        i.e Personal portfolio, Temperature converter, Gaming app etc.
+                    </p>
+                    <a href="https://github.com/coderfaiyaz" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <img src="images/sensor.png" class="service-img">
+                    <h2>Electronic Devices</h2>
+                    <p>The Motion Sensor Light System project aims to design and develop an energy-efficient
+                        lighting solution that automatically activates and deactivates lights based on motion
+                        detection.</p>
+                    <a href="https://easyelectronicsproject.com/mini-projects/motion-sensor-light-cd4017-ir/"
+                        target="_blank">
+                        Learn more</a>
+                </div>
+                <div>
+                    <img src="images/software.png" class="service-img">
+                    <h2>Software Programming</h2>
+                    <p>The Object-Oriented Banking System Software is designed to simulate the operations of a
+                        real-world banking system using C++ and object-oriented programming (OOP) concepts. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <h2 class="hire-head">I am currently available for work</h2>
+            <div class="hire">
+                <p>I believe in the power of collaboration and continuous learning.
+                    Every project is an opportunity to learn and grow,
+                    and I'm always excited to tackle new challenges and refine my skills.</p>
+            </div>
+            <button class="hire-btn3"><a href="mailto:mdfaiyazansari1@gmail.com" target="_blank">Hire</a></button>
+        </div>
+    </div>
+    <!-- -------------portfolio-section-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-heading">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio Web Page</h3>
+                        <p>Utilized HTML, and CSS, to create an interactive and demonstrated proficiency
+                            in front-end web development and user-centered design principles. <br>
+                            Integrated smooth scrolling navigation, project filtering,
+                            and interactive elements.</p>
+                        <a href="https://github.com/coderfaiyaz" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/simonGame.png">
+                    <div class="layer">
+                        <h3>Simon Game App</h3>
+                        <p>Developed using HTML, CSS, and JavaScript to create an engaging gaming
+                            experience. <br>
+                            Implemented random pattern generation and user input verification. <br>
+                            Incorporated HTML5 Audio API for audio feedback and user interaction.</p>
+                        <a href="https://coderfaiyaz.github.io/simon-game/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tempCal.png">
+                    <div class="layer">
+                        <h3>Temperature Converter App</h3>
+                        <p>Temperature convert from calcius to farehaite and vise-versa. <br>
+                            Developed using HTML, CSS, and JavaScript to create.
+                        </p>
+                        <a href="https://coderfaiyaz.github.io/Temperature-converter/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/drumkit.png">
+                    <div class="layer">
+                        <h3>Drum Kit App</h3>
+                        <p>Utilized JavaScript event listeners to detect user input through keyboard keys and mouse
+                            clicks. <br>
+                            Implemented dynamic sound playback using HTML5 Audio API, enabling users to create music
+                            through the virtual drum set.</p>
+                        <a href="https://coderfaiyaz.github.io/drum-kits/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button>
+                    <a href="https://github.com/coderfaiyaz" target="_blank">See more</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------contact-section-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-leftside">
+
+                    <form action="mailto:mdfaiyazansari1@gmail.com" method="post" enctype="text/plain">
+                        <input type="text" name="Name" placeholder="Your name">
+                        <input type="tel" name="Tel" placeholder="Mobile number">
+                        <input type="email" name="Email" placeholder="Email">
+                        <textarea name="Message" placeholder="Message" cols="30" rows="8"></textarea>
+                        <button type="submit" value="Sent" class="btn2"><a href="">Send</a></button>
+                        <button type="reset" value="Reset" class="btn2"><a href="">Reset</a></button>
+                    </form>
+                </div>
+                <div class="contact-rightside">
+                    <h1 class="sub-heading">Contact Me</h1>
+                    <p><i class="fa-solid fa-location-dot"></i>India</p>
+                    <p><i class="fa-solid fa-envelope"></i>mdfaiyazansari1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9521383047</p>
+                    <div class="social-link">
+                        <h3>Connect</h3>
+                        <a href="https://www.linkedin.com/in/md-faiyaz-ansari1/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        <a href="https://github.com/coderfaiyaz" target="_blank">
+                            <i class="fa-brands fa-github fa-lg"></i></a>
+                    </div>
+                    <button class="cv"><a href="images/Resume.pdf" download="CV">
+                            <i class="fa-solid fa-download"></i>Download CV</a></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy2023 <a href="https://github.com/coderfaiyaz" target="_blank">Mohd Faiyaz Ansari</a>.
+            All rights reserved.</p>
+    </div>
+    <!-- -------------Script-------------->
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
