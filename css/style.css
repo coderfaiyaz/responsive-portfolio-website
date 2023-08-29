@@ -504,6 +504,12 @@ nav .fa-solid {
 
 @media only screen and (max-width:943px) {
 
+  nav .fa-solid {
+  display: none;
+}
+
+@media only screen and (max-width:943px) {
+
   #home {
     width: 100%;
   }
@@ -575,12 +581,12 @@ nav .fa-solid {
   }
 
   .sub-heading {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
   }
 
   .paras {
-    font-size: 23px;
+    font-size: 16px;
     font-family: 'Nunito', 'sans-serif';
     padding-top: 15px;
   }
@@ -618,6 +624,27 @@ nav .fa-solid {
     font-size: 30px;
   }
 
+  .location{
+    font-size: 14px;
+  }
+
+  .board{
+    font-size: 15px;
+  }
+
+  .YOP{
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .services-list div p {
+    font-size: 16px;
+  }
+
+  .services-list div h2 {
+    font-size: 20px;
+  }
+
   #contact {
     padding: 30px 0;
   }
@@ -639,7 +666,7 @@ nav .fa-solid {
   }
 
   .contact-rightside p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .whatsapp {
